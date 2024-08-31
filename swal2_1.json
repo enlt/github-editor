@@ -1,0 +1,24 @@
+{
+  "open": true,
+  "forceNightMode": false,
+  "dayMode": {
+    "backgroundColor": "#ffffff",
+    "buttonColor": "#007bff",
+    "buttonTextColor": "#ffffff",
+    "textColor": "#000000"
+  },
+  "nightMode": {
+    "backgroundColor": "#1e1e1e",
+    "buttonColor": "#6200ea",
+    "buttonTextColor": "#ffffff",
+    "textColor": "#d4d4d4"
+  },
+  "title": "哈哈测?试命名一下咯",
+  "text": "测试？<img src='https://cdn.cbd.int/luoh-blog-static@0.1.5-rc.1/image/svg/solid/compass.svg'>",
+  "icon": null,
+  "confirmButtonText": "已阅",
+  "cancelButtonText": null,
+  "showCancelButton": false,
+  "timer": 5000,
+  "steps": null
+}
