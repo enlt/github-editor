@@ -21,4 +21,27 @@
   "showCancelButton": false,
   "timer": 5000,
   "steps": null
+}{
+  "open": true,
+  "forceNightMode": false,
+  "dayMode": {
+    "backgroundColor": "#ffffff",
+    "buttonColor": "#007bff",
+    "buttonTextColor": "#ffffff",
+    "textColor": "#000000"
+  },
+  "nightMode": {
+    "backgroundColor": "#1e1e1e",
+    "buttonColor": "#6200ea",
+    "buttonTextColor": "#ffffff",
+    "textColor": "#d4d4d4"
+  },
+  "title": "我已开学",
+  "text": "猫猫已死，有事烧纸。<br>小事招魂，大事挖坟。<br>随机一图<img src='https://api.luoh.my.to/New/PicLibrary/AnimeImage/?t=wallpaper'>",
+  "icon": null,
+  "confirmButtonText": "已阅",
+  "cancelButtonText": null,
+  "showCancelButton": false,
+  "timer": 5000,
+  "steps": null
 }
