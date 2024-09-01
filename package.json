@@ -1,11 +1,14 @@
 {
   "name": "luoh-blog-env",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "测试用途",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "LuoH",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "semver": "^7.6.3"
+  }
 }
