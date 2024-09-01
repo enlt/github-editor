@@ -1,6 +1,6 @@
 {
-  "name": "luoh-github-editor",
-  "version": "0.0.3",
+  "name": "luoh-blog-env",
+  "version": "0.0.001",
   "description": "测试用途",
   "main": "index.js",
   "scripts": {

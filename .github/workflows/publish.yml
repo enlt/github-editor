@@ -23,7 +23,7 @@ jobs:
     - name: 安装依赖
       run: npm install
 
-    - name: 凹凸版本和发布
+    - name: 更新版本和发布
       id: bump_version
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -44,16 +44,15 @@ jobs:
         
         echo "new_version=$new_version" >> $GITHUB_ENV
 
-    - name: 推送新版本标签
+    - name: 推送更改到GitHub
       if: success()
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         
-        COMMIT_MESSAGE="${new_version}"
-
-        git add .
+        new_version=${{ env.new_version }}
+        COMMIT_MESSAGE="Release version ${new_version} on $(date +'%Y-%m-%d %H:%M:%S')"
+        
+        git add package.json
         git commit -m "$COMMIT_MESSAGE"
-
-        git tag ${new_version}
-        git push origin main --tags
+        git push origin main
