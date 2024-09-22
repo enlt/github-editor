@@ -1,6 +1,6 @@
 {
   "name": "luoh-blog-env",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "测试用途",
   "main": "index.js",
   "scripts": {
